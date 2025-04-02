@@ -5,14 +5,13 @@ body {
   background-color: #001;
 }
 .navbar {
-  gap: 0px;
   font-size: large;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #123;
   padding: 15px;
-  margin: 0px;
+  margin-top: 5px;
   color: white;
 }
 .profile-icon {
@@ -21,7 +20,6 @@ body {
   border-radius: 50% 50%;
   background: #fff;
   margin-left: 10px;
-
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -92,10 +90,12 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
   justify-content: space-between;
   background:#001;
   padding: 20px;
   border-radius: 8px;
+  position: relative;
 }
 .Intro-Image {
   width: 500px;
@@ -125,7 +125,11 @@ body {
   border-radius: 10px;
   padding: 20px;
   flex: 1;
-  height: 265px;
+  height: auto;
+}
+.Intro-text p{
+  margin-top: 50px;
+  font-size: 25px;
 }
 
 .Intro-text .highlight {
@@ -140,6 +144,7 @@ body {
   gap: 20px;
   margin-top: 20px;
   background: #001;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
